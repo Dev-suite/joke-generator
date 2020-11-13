@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <!-- Shortcut Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo_icon_invert.png">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <a class="github-fork-ribbon right-top" href="https://github.com/Dev-suite" target="_blank"
+        data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+    <div class="container">
+
+        <h3>Dry Joke <b id="joke_number">0</b> </h3>
+
+        <div id="joke"></div>
+
+        <button id="get_new_joke_btn" onclick="dryyyyy();">
+            Get Another Joke
+        </button>
+
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://facebook.com/sharer/sharer.php?u=" target="_blank" rel="noopener"
+                        aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com/intent/tweet/?text="
+                        target="_blank" rel="noopener" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+        <h3> This page was viewed <b id="page_view_no"></b> times </h3>
+        <hr>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
