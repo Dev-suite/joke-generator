@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #e41b23;
+	background-color: blue;
 	font-family: 'Anonymous Pro', monospace;
 	display: flex;
 	flex-direction: column;
@@ -51,7 +51,7 @@ h3 {
 }
 
 #get_new_joke_btn {
-	background-color: #e41b23;
+	background-color: blue;
 	border: 0;
 	border-radius: 10px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
